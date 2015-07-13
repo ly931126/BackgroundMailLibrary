@@ -67,8 +67,12 @@ public class GmailSender extends javax.mail.Authenticator
 
         message.setText(body);
         message.setDataHandler(handler);
-        if(_multipart.getCount() > 0)
+        if(_multipart.getCount() > 0) {
+            BodyPart messageBodyPart = new MimeBodyPart();
+            messageBodyPart.setText(body);
+            _multipart.addBodyPart(messageBodyPart);
             message.setContent(_multipart);
+        }
         if (recipients.indexOf(',') > 0)
             message.setRecipients(Message.RecipientType.TO, InternetAddress.parse(recipients));   
         else  
