@@ -3,6 +3,12 @@ Background Mail Library 1.8
 [ ![Download](https://api.bintray.com/packages/kristijandraca/maven/BackgroundMailLibrary/images/download.svg) ](https://bintray.com/kristijandraca/maven/BackgroundMailLibrary/_latestVersion)[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-BackgroundMailLibrary-brightgreen.svg?style=flat)](http://android-arsenal.com/details/1/276)   
 Android Library for sending mail in background
 
+# DEPRECATED
+Background Mail Library is deprecated. No more development will be taking place. For an up-to-date version use GmailBackground (https://github.com/yesidlazaro/GmailBackground)
+Thanks for all your support!
+
+
+
 **How to use it**
 
             BackgroundMail bm = new BackgroundMail(context);
