@@ -12,6 +12,10 @@ import android.widget.EditText;
 import com.kristijandraca.backgroundmaillibrary.BackgroundMail;
 import com.kristijandraca.backgroundmaillibrary.Utils;
 
+/**
+ * use to gmail
+ */
+
 public class DemoActivity extends ActionBarActivity {
     Context context;
     EditText to, subject, message;
